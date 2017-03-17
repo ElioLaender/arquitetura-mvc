@@ -1,0 +1,126 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:700,400);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400);
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+p,h1,h2,h3,h4,h5,h6,a,div,nav,ul,li,ol,dl,header,section,article,::before,::after,button,div{
+ -webkit-box-sizing:border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body{
+  line-height: 1;
+}
+ol,ul{
+  list-style: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+a:active,a:focus,
+a:hover {
+    outline: 0;
+}
+::before,::after,a{
+  display: inline-block;
+}
+
+/*Configuracao de elementos para efeito cascata*/
+em, button{
+  font-family:"Source Sans Pro","arial";
+}
+legend{
+  font-family:"Roboto Slab";
+}
+/*troca de cor a letra n*/
+div  span{
+  color:#00badb;
+}
+/*da destaque em negrito, pega todos <em> dentro do primeiro bloco*/
+div  em{
+  color: #444;
+  font-weight: 600;
+}
+
+
+/*formatacao de links padrao*/
+a:link{
+  text-decoration: none;
+}
+a:visited{
+  color: #fff;
+}
+
+/*configuaração padrão para os links de pg inicial*/
+ul li a{
+  font-size:1.1em;
+  font-weight: 500;
+  font-family:"Source Sans Pro","arial";
+
+  text-align: left;
+
+  letter-spacing: 1px;
+
+  -moz-transition:  .2s ease-out;
+  -webkit-transition:  .2s ease-out;
+   transition:  .2s ease-out;
+
+  z-index: 3;
+}
+/*configurar button*/
+button{
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+/*h1,h2,h3,h4 sao da mesma fonte e tamanho*/
+h1,h2,h3,h4{
+  text-align: center;
+  font-family:"Roboto Slab","arial";
+
+}
+/*configuracao padrao dt e dd*/
+dt,dd{ 
+  text-align: center; 
+  font-family:"Roboto Slab";
+}
+dd{
+  text-align:center; 
+  font-family:'Source Sans Pro';
+}
+/*padrao dos <p>*/
+p{
+  text-align:center;
+  font-family:'Source Sans Pro';
+}
+span{
+  font-family:'Source Sans Pro';
+}
+

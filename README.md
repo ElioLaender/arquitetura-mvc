@@ -34,8 +34,6 @@ Estrutura de diretórios para projetos no padrão MVC em PHP
 
 --------------------------------------------------------------
 
-Atenção: Esta estrutura é funcional, porém não atende as boas práticas de design patterns. Pretendo refatorar futuramente.
-
 Descrição de arquivos e diretórios:
 
 * <b>congif</b>: Arquivos de configuração do sistema, tais como as dependências que as classes do projeto possui para funcionar.
